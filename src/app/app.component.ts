@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  title = '献叼';
+  person = {
+    cc: '献狗',
+    zz: '献儿'
+  };
+
+  xianDiao() {
+    alert('献叼最叼');
+  }
 }

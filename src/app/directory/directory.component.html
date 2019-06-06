@@ -1,0 +1,17 @@
+<ul>
+  <li *ngFor="let person of people">
+    <form class="form-inline">
+    <div>
+      <span [ngStyle]="{background:person.color}" >{{person.color}}</span>
+    </div>
+    <div >
+      <h3>{{person.name}}</h3>
+    </div>
+    <div>
+      <h3>{{person.phone}}</h3>
+    </div>
+    </form>
+    <hr>
+  </li>
+</ul>
+

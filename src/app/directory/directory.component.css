@@ -1,0 +1,38 @@
+body{
+  font-family: Verdana;
+  letter-spacing: 0.1em;
+  color: #606060;
+  background: #eee;
+  padding: 20px;
+}
+
+h1,h2,h3{
+  font-weight: normal;
+  margin-top: 0;
+}
+h3{
+  color: #1b1e21;
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+div{
+  display: table;
+  padding: 8px;
+  margin-left: 10px;
+}
+ul{
+  list-style: none;
+}
+form{
+  margin-top: 20px;
+}
+span{
+  display: inline-block;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+}
